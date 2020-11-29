@@ -3,9 +3,6 @@ import Logo from './Logo';
 import Social from './Social';
 import Menu from './Menu';
 class Header extends Component {
-    socialList = () => {
-        return 
-    }
     render() {
         return (
             <header className="header nav-down">
@@ -16,7 +13,7 @@ class Header extends Component {
                                 <div className="row">
                                     <Logo />
                                     <Menu />
-                                    <Social socialList={this.socialList()} />
+                                    <Social />
                                 </div>
                             </div>
                         </div>
