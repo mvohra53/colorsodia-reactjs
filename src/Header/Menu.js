@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {NavLink} from 'react-router-dom';
 const Menu = () => {
     let menuList = [];
     return (
@@ -8,9 +8,9 @@ const Menu = () => {
                 <ul>
                     {menuList.length > 0 && menuList.map(function (i, v) {
                         return <li key={"social_h_" + v}>
-                            <a href={i.link} rel="noreferrer" target="_blank">
+                            <NavLink to={i.link}>
                                 <img src={i.icon} alt={i.name} />
-                            </a>
+                            </NavLink>
                         </li>;
                     })}
                 </ul>
