@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from './Logo';
 import Social from './Social';
 import Menu from './Menu';
+import './Header.css';
 class Header extends Component {
     render() {
         return (
