@@ -1,9 +1,9 @@
 import React from 'react';
-const Page = ()=>{
+const ShowsSingle = ()=>{
     return (
         <>
         </>
     );
 }
 
-export default Page;
+export default ShowsSingle;
